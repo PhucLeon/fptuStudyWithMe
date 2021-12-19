@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--Font: Roboto-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!--End Font-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/sakura/sakura.min.css">
+
+    <title>fptu pomodoro</title>
+</head>
+
+<body data-sakura-anim-id="1" style="overflow-x: hidden;">
+    <!--Begin: Navbar-->
+    <div class="navbar">
+        <ul class="navbar__list-left">
+            <li class="navbar__list-item"><a href="#">Home</a></li>
+            <li class="navbar__list-item"><a href="#main">Study with me</a></li>
+        </ul>
+
+        <div class="navbar__logo">
+            <a href="#">
+                <img src="./assets/img/logo/fpt.png" alt="" class="navbar__logo-img">
+            </a>
+        </div>
+
+        <ul class="navbar__list-right">
+            <li class="navbar__list-item"><a href="#">FU Source</a></li>
+            <li class="navbar__list-item"><a href="#">Community</a></li>
+        </ul>
+    </div>
+    <!--End: Navbar-->
+
+    <!--Begin: Open-->
+    <div class="open">
+        <div class="open__img">
+            
+        </div>
+
+        <div class="open__content">
+            <h2>FPT University</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur quidem cupiditate atque quibusdam minima tempora maxime voluptas aut sequi ipsa! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, magni?</p>   
+            <a href="#main" class="open__btn">
+                Let's started 
+                <i class="fas fa-arrow-down open__btn-icon"></i>
+            </a>
+        </div>
+    </div>
+    <!--End: Open-->
+
+    <!--Begin: main-->
+    <div class="main" id="main">
+        <div class="slider">
+            <q></q>
+            <p></p>
+        </div>
+
+        <div class="content-container">
+            <!--Start: sidebar-->
+            <div class="sidebar">
+                <!-- Begin: Player Music -->
+                <div class="player">
+                    <!-- CD -->
+                    <div class="player-cd">
+                        <div class="player-cd-thumb" 
+                            style="background-image: url('./assets/img/img_music/fpt_pray.jpg');">
+                        </div>
+                    </div>
+
+                     <!-- Dashboard -->
+                    <div class="player-dashboard">
+                        <div class="player-dashboard__behavior">
+                            <div class="btn btn-setting">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div>
+                            <div class="btn btn-heart">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+
+                        <!-- Header -->
+                        <header>
+                            <h3>Song Name</h3>
+                            <p>Author</p>
+                        </header>
+
+                        <!-- Control -->
+                        <div class="player-dashboard__control">
+                            <div class="player-dashboard__control-progress">
+                                <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+                            </div>
+
+                            <div class="player-dashboard__control-2btn">
+                                <div class="btn btn-repeat">
+                                    <i class="fas fa-redo"></i>
+                                </div>
+                                <div class="btn btn-random">
+                                    <i class="fas fa-random"></i>
+                                </div>
+                            </div>
+ 
+                            <div class="player-dashboard__control-3btn">
+                                <div class="btn btn-prev">
+                                    <i class="fas fa-step-backward"></i>
+                                </div>
+                                <div class="btn btn-toggle-play">
+                                    <i class="fas fa-pause icon-pause"></i>
+                                    <i class="fas fa-play icon-play"></i>
+                                </div>
+                                <div class="btn btn-next">
+                                    <i class="fas fa-step-forward"></i>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <audio id="audio" src=""></audio>
+                    </div>
+
+                </div>
+                <!-- Playlist -->
+                <div class="playlist">
+                            
+                </div>
+                
+                <!-- End: Player Music -->
+            </div>
+            <!--End: sidebar-->
+
+            <!--Start: content-->
+            <div class="content">
+                <div class="clock">
+                    <div class="clock-start">
+                        <p id="work" class="label">Work:</p>
+                        <!--Work timer-->
+                        <div id="work-timer" class="timer">
+                            <p id="w_minutes">25</p>
+                            <p class="semicolon">:</p>
+                            <p id="w_seconds">00</p>
+                        </div>
+                        <button id="start" class="btn btn-clock">Start</button>
+                    </div>
+
+                    <div class="clock-pause">
+                        <p id="cycles" class="label">Cycles:</p>
+                        <!--Cycle Counter-->
+                        <p id="counter" class="timer">0</p>
+                        <button id="stop" class="btn btn-clock">Pause</button>
+                    </div>
+
+                    <div class="clock-reset">   
+                        <p id="break" class="label">Break:</p>
+                        <!--Break Timer-->
+                        <div id="break-timer" class="timer">
+                            <p id="b_minutes">05</p>
+                            <p class="semicolon">:</p>
+                            <p id="b_seconds">00</p>
+                        </div>
+                        <button id="reset" class="btn btn-clock">Reset</button>
+                    </div>          
+                </div>
+            </div>
+            <!--End: sidebar-->
+        </div>
+    
+    </div>
+    <!--End: main-->
+
+    <!--Begin: Contact-->
+    <div class="contact">
+        <div class="contact__content">
+            <h2>Contact Information</h2>
+            <p>Phone number: 0902400883</p>
+            <p>Gmail: nguyentrongphuchcm191@gmail.com</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga sapiente illo a eaque ducimus repellat impedit quis illum laudantium maxime!</p>
+        </div> 
+
+        <div class="contact__img">
+
+        </div>
+    </div>
+    <!--End: Contact-->
+
+    <div class="footer">
+        <div class="social-list">
+            <a href="https://www.facebook.com/phuc.nguyentrong.5/" class="footer__icon" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://phucleon.blogspot.com/" class="footer__icon" target="_blank"><i class="fab fa-blogger"></i></a>
+            <a href="https://www.linkedin.com/in/trong-phuc/" class="footer__icon" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p class="copyright">Copyright by Nguyen Trong Phuc</p>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/clock.js"></script>
+    <script src="./assets/js/music.js"></script>
+    <script src="./assets/sakura/sakura.min.js"></script>
+    <script>
+        const sakura = new Sakura('body');
+    </script>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
+</body>
+</html>
