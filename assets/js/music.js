@@ -22,20 +22,20 @@ const app = {
 
     songs: [
         {
-            name: "Naruto sorrow",
-            author: "Toshio Masuda",
-            image: "/fptu_pomodoro/assets/img/img_music/sadness_and_sorrow.jpg",
-            path: "/fptu_pomodoro/assets/music/music_1_sadness-and-sorrow_(mp3cut).mp3",
-            quoteContent: "Thật dễ dàng để chấp nhận và yêu thương một kẻ nào đó giống mình, nhưng để yêu thương ai đó khác mình thực sự rất khó khăn.",
-            quoteAuthor: "- Chuyện con mèo dạy hải âu bay",
-        },
-        {
             name: "FPT Pray",
             author: "Unknown",
             image: "/fptu_pomodoro/assets/img/img_music/fpt_pray.jpg",
             path: "/fptu_pomodoro/assets/music/music_3_fpt-pray_(mp3cut).mp3",
             quoteContent: "Khi chúng ta nỗ lực để trở nên tốt đẹp hơn, mọi thứ xung quanh chúng ta cũng sẽ trở nên tốt đẹp hơn",
             quoteAuthor: "- Nhà giả kim"
+        },
+        {
+            name: "Naruto sorrow",
+            author: "Toshio Masuda",
+            image: "/fptu_pomodoro/assets/img/img_music/sadness_and_sorrow.jpg",
+            path: "/fptu_pomodoro/assets/music/Sadness and Sorrow by Purojekuto Musashi-arr. Michael Brown.mp3",
+            quoteContent: "Thật dễ dàng để chấp nhận và yêu thương một kẻ nào đó giống mình, nhưng để yêu thương ai đó khác mình thực sự rất khó khăn.",
+            quoteAuthor: "- Chuyện con mèo dạy hải âu bay",
         },
         {
             name: "Study with me",
@@ -49,18 +49,51 @@ const app = {
             name: "Evening study",
             author: "Free music",
             image: "/fptu_pomodoro/assets/img/img_music/study_evening.jpg",
-            path: "/fptu_pomodoro/assets/music/music_5_study-in-the-evening_(mp3cut).mp3",
+            path: "/fptu_pomodoro/assets/music/your-name.mp3",
             quoteContent: "Thứ tôi muốn mua rất đắt đỏ, nơi tôi muốn đi rất xa xôi, người tôi yêu lại vô cùng ưu tú. Vì vậy, tôi phải cố gắng",
             quoteAuthor: "- Tại sao bạn lại nỗ lực nhiều như vậy?"
         },
         {
-            name: "Relax",
-            author: "Free music",
-            image: "/fptu_pomodoro/assets/img/img_music/jazz.jpg",
-            path: "/fptu_pomodoro/assets/music/music_4_jazz-funny_(mp3cut).mp3",
+            name: "Your name OST 2",
+            author: "Imdoong",
+            image: "/fptu_pomodoro/assets/img/img_music/your-name-2.jpg",
+            path: "/fptu_pomodoro/assets/music/your-name-2.mp3",
             quoteContent: "Khi bạn khao khát một điều gì đó, cả vũ trụ sẽ hợp lực giúp bạn đạt được điều đó",
             quoteAuthor: "- Nhà giả kim"
         },
+        {
+            name: "Pretty's on the inside",
+            author: "Chloe Adams",
+            image: "/fptu_pomodoro/assets/img/img_music/pretty.jpg",
+            path: "/fptu_pomodoro/assets/music/Chloe Adams - Pretty's On The Inside.mp3",
+            quoteContent: "Khi bạn khao khát một điều gì đó, cả vũ trụ sẽ hợp lực giúp bạn đạt được điều đó",
+            quoteAuthor: "- Nhà giả kim"
+        },
+        {
+            name: "Nghe bài này đi em",
+            author: "Củ Cải",
+            image: "/fptu_pomodoro/assets/img/img_music/nghe-bai-nay-di-em.jpg",
+            path: "/fptu_pomodoro/assets/music/Nghe Bài Này Đi Em - Củ Cải x Chu x Specter (Prod.by Rastz).mp3",
+            quoteContent: "Khi bạn khao khát một điều gì đó, cả vũ trụ sẽ hợp lực giúp bạn đạt được điều đó",
+            quoteAuthor: "- Nhà giả kim"
+        },
+        {
+            name: "Cho tôi tình yêu",
+            author: "Denn ( Prod.by MinhTan)",
+            image: "/fptu_pomodoro/assets/img/img_music/cho-toi-tinh-yeu.jpg",
+            path: "/fptu_pomodoro/assets/music/Cho Tôi Tình Yêu - Denn (Lyrics).mp3",
+            quoteContent: "Khi bạn khao khát một điều gì đó, cả vũ trụ sẽ hợp lực giúp bạn đạt được điều đó",
+            quoteAuthor: "- Nhà giả kim"
+        },
+        {
+            name: "Xuân này con không về T7M",
+            author: "T7M",
+            image: "/fptu_pomodoro/assets/img/img_music/namhen.jpg",
+            path: "/fptu_pomodoro/assets/music/XUÂN NÀY CON KHÔNG VỀ REMIX ĐÁM GIỖ THỎ BẢY MÀU - OST TẾT VỀ QUÊ THỎ.mp3",
+            quoteContent: "Khi bạn khao khát một điều gì đó, cả vũ trụ sẽ hợp lực giúp bạn đạt được điều đó",
+            quoteAuthor: "- Nhà giả kim"
+        },
+
     ],
     
     render: function() {
