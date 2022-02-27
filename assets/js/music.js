@@ -24,72 +24,72 @@ const app = {
         {
             name: "FPT Pray",
             author: "Unknown",
-            image: "/fptuStudyWithMe-main/assets/img/img_music/fpt_pray.jpg",
-            path: "/fptuStudyWithMe-main/assets/music/music_3_fpt-pray_(mp3cut).mp3",
+            image: "/fptuStudyWithMe/assets/img/img_music/fpt_pray.jpg",
+            path: "/fptuStudyWithMe/assets/music/music_3_fpt-pray_(mp3cut).mp3",
             quoteContent: "Khi chúng ta nỗ lực để trở nên tốt đẹp hơn, mọi thứ xung quanh chúng ta cũng sẽ trở nên tốt đẹp hơn",
             quoteAuthor: "- Nhà giả kim"
         },
         {
             name: "Naruto sorrow",
             author: "Toshio Masuda",
-            image: "/fptuStudyWithMe-main/assets/img/img_music/sadness_and_sorrow.jpg",
-            path: "/fptuStudyWithMe-main/assets/music/Sadness and Sorrow by Purojekuto Musashi-arr. Michael Brown.mp3",
+            image: "/fptuStudyWithMe/assets/img/img_music/sadness_and_sorrow.jpg",
+            path: "/fptuStudyWithMe/assets/music/Sadness and Sorrow by Purojekuto Musashi-arr. Michael Brown.mp3",
             quoteContent: "Thật dễ dàng để chấp nhận và yêu thương một kẻ nào đó giống mình, nhưng để yêu thương ai đó khác mình thực sự rất khó khăn.",
             quoteAuthor: "- Chuyện con mèo dạy hải âu bay",
         },
         {
             name: "Study with me",
             author: "jawonee",
-            image: "/fptuStudyWithMe-main/assets/img/img_music/study_with_me.jpg",
-            path: "/fptuStudyWithMe-main/assets/music/music_2_study-with-me_(mp3cut).mp3",
+            image: "/fptuStudyWithMe/assets/img/img_music/study_with_me.jpg",
+            path: "/fptuStudyWithMe/assets/music/music_2_study-with-me_(mp3cut).mp3",
             quoteContent: "Với bản tính kiên nhẫn của loài mèo, chúng chờ cho con hải âu tự nói lên mong ước được bay lượn, bởi có một câu châm ngôn truyền đời đã dạy chúng rằng bay lượn là một quyết định hoàn toàn cá nhân",
             quoteAuthor: "- Chuyện con mèo dạy hải âu bay"
         },
         {
             name: "Evening study",
             author: "Free music",
-            image: "/fptuStudyWithMe-main/assets/img/img_music/study_evening.jpg",
-            path: "/fptuStudyWithMe-main/assets/music/your-name.mp3",
+            image: "/fptuStudyWithMe/assets/img/img_music/study_evening.jpg",
+            path: "/fptuStudyWithMe/assets/music/your-name.mp3",
             quoteContent: "Thứ tôi muốn mua rất đắt đỏ, nơi tôi muốn đi rất xa xôi, người tôi yêu lại vô cùng ưu tú. Vì vậy, tôi phải cố gắng",
             quoteAuthor: "- Tại sao bạn lại nỗ lực nhiều như vậy?"
         },
         {
             name: "Your name OST 2",
             author: "Imdoong",
-            image: "/fptuStudyWithMe-main/assets/img/img_music/your-name-2.jpg",
-            path: "/fptuStudyWithMe-main/assets/music/your-name-2.mp3",
+            image: "/fptuStudyWithMe/assets/img/img_music/your-name-2.jpg",
+            path: "/fptuStudyWithMe/assets/music/your-name-2.mp3",
             quoteContent: "Khi bạn khao khát một điều gì đó, cả vũ trụ sẽ hợp lực giúp bạn đạt được điều đó",
             quoteAuthor: "- Nhà giả kim"
         },
         {
             name: "Pretty's on the inside",
             author: "Chloe Adams",
-            image: "/fptuStudyWithMe-main/assets/img/img_music/pretty.jpg",
-            path: "/fptuStudyWithMe-main/assets/music/Chloe Adams - Pretty's On The Inside.mp3",
+            image: "/fptuStudyWithMe/assets/img/img_music/pretty.jpg",
+            path: "/fptuStudyWithMe/assets/music/Chloe Adams - Pretty's On The Inside.mp3",
             quoteContent: "Khi bạn khao khát một điều gì đó, cả vũ trụ sẽ hợp lực giúp bạn đạt được điều đó",
             quoteAuthor: "- Nhà giả kim"
         },
         {
             name: "Nghe bài này đi em",
             author: "Củ Cải",
-            image: "/fptuStudyWithMe-main/assets/img/img_music/nghe-bai-nay-di-em.jpg",
-            path: "/fptuStudyWithMe-main/assets/music/Nghe Bài Này Đi Em - Củ Cải x Chu x Specter (Prod.by Rastz).mp3",
+            image: "/fptuStudyWithMe/assets/img/img_music/nghe-bai-nay-di-em.jpg",
+            path: "/fptuStudyWithMe/assets/music/Nghe Bài Này Đi Em - Củ Cải x Chu x Specter (Prod.by Rastz).mp3",
             quoteContent: "Khi bạn khao khát một điều gì đó, cả vũ trụ sẽ hợp lực giúp bạn đạt được điều đó",
             quoteAuthor: "- Nhà giả kim"
         },
         {
             name: "Cho tôi tình yêu",
             author: "Denn ( Prod.by MinhTan)",
-            image: "/fptuStudyWithMe-main/assets/img/img_music/cho-toi-tinh-yeu.jpg",
-            path: "/fptuStudyWithMe-main/assets/music/Cho Tôi Tình Yêu - Denn (Lyrics).mp3",
+            image: "/fptuStudyWithMe/assets/img/img_music/cho-toi-tinh-yeu.jpg",
+            path: "/fptuStudyWithMe/assets/music/Cho Tôi Tình Yêu - Denn (Lyrics).mp3",
             quoteContent: "Khi bạn khao khát một điều gì đó, cả vũ trụ sẽ hợp lực giúp bạn đạt được điều đó",
             quoteAuthor: "- Nhà giả kim"
         },
         {
             name: "Xuân này con không về T7M",
             author: "T7M",
-            image: "/fptuStudyWithMe-main/assets/img/img_music/namhen.jpg",
-            path: "/fptuStudyWithMe-main/assets/music/XUÂN NÀY CON KHÔNG VỀ REMIX ĐÁM GIỖ THỎ BẢY MÀU - OST TẾT VỀ QUÊ THỎ.mp3",
+            image: "/fptuStudyWithMe/assets/img/img_music/namhen.jpg",
+            path: "/fptuStudyWithMe/assets/music/XUÂN NÀY CON KHÔNG VỀ REMIX ĐÁM GIỖ THỎ BẢY MÀU - OST TẾT VỀ QUÊ THỎ.mp3",
             quoteContent: "Khi bạn khao khát một điều gì đó, cả vũ trụ sẽ hợp lực giúp bạn đạt được điều đó",
             quoteAuthor: "- Nhà giả kim"
         },

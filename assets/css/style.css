@@ -47,7 +47,7 @@ body{
 
 .open__img {
     flex: 1.5;
-    background-image: url('/fptuStudyWithMe-main/assets/img/fake_img/undraw_christmas_mode_g81u.svg');
+    background-image: url('/fptuStudyWithMe/assets/img/fake_img/undraw_christmas_mode_g81u.svg');
     background-size: contain;
     background-repeat: no-repeat;
     width: 955px;
@@ -437,7 +437,7 @@ body{
 }
 
 .contact__img {
-    background-image: url('/fptuStudyWithMe-main/assets/img/fake_img/undraw_feedback_re_urmj.svg');
+    background-image: url('/fptuStudyWithMe/assets/img/fake_img/undraw_feedback_re_urmj.svg');
     flex: 1;
     background-size: contain;
     background-repeat: no-repeat;
