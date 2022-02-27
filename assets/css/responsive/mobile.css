@@ -1,0 +1,114 @@
+/*Mobile*/
+@media (max-width: 740px) {
+    /* Begin: Navbar */
+    .navbar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar__logo {
+        display: none;    
+    }
+
+    .navbar__list-left,
+    .navbar__list-right {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .navbar__list-item {
+        padding: 4px 8px;
+    }
+
+    /*End: Navbar*/
+
+    /* Begin: Open */
+    .open {
+        width: 100%;
+        margin: auto;
+    }
+    
+    .open__img {
+       display: none;
+    }
+
+    .open__content {
+        width: 100%;
+    }
+
+    .open__content h2 {
+        margin-top: 24px;
+        font-size: 36px;  
+    }
+
+    .open__content p {
+        text-align: center;
+    }
+
+    /* Begin: Quotes */
+    .slider {
+        width: 100%;
+        min-height: 216px;
+        padding: 0;
+    }
+
+    /*End: Quotes*/
+
+
+    /*Begin: Music*/
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .playlist {
+        background-color: rgba(193,207,218, 0.8);
+    }
+
+    .content {
+        width: 120%;
+    }    
+    /*End: Music*/
+
+    /* Begin: sidebar Music */
+    .sidebar {
+        width: 40%;
+        min-width: 360px;
+    }
+    /*End: sidebar Music*/
+
+    /* Begin: clock */
+    .content {
+        width: 100%;
+        margin-left: -106px;
+    }
+
+    .clock {
+        height: 200px;
+        min-width: 378px;
+    }
+
+    /*End: Clock */
+
+    /* Begin: Contact */
+    .contact {
+        width: 100%;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .contact__img {
+        display: none;
+    }
+
+    /* End: Contact */
+
+    /* Begin: Footer */
+    .footer {
+        height: 140px;
+        margin-top: 32px;
+    }
+
+}

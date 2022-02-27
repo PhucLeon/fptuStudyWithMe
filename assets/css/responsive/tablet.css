@@ -1,0 +1,47 @@
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1024px) {
+    /* Begin: Open */
+    .open {
+        width: 90%;
+    }
+
+    .open__content h2 {
+        margin-top: -16px;   
+    }
+
+    /*End: Open/
+    
+    /* Begin: Quotes */
+    .slider {
+        padding: 0 0;
+        min-height: 128px;
+    }
+
+    /*End Quotes*/
+    
+    /*Begin: Music*/
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .playlist {
+        background-color: rgba(193,207,218, 0.8);
+    }
+
+    .content {
+        width: 120%;
+    }
+    /*End: Music*/
+
+    /* Begin: Contact */
+    .contact {
+        width: 90%;
+        margin: auto;
+        padding-top: 126px;
+        padding-bottom: 0;
+    }
+    /*End: Contact*/
+}
